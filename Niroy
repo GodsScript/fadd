@@ -1,0 +1,78 @@
+ .work-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .workz {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .workz:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .workz img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .workz h3 {
+    margin: 15px;
+    font-size: 18px;
+    color: #0f172a;
+  }
+
+  .workz p {
+    margin: 0 15px 15px;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<h2>My Portfolio</h2>
+<div class="work-cont">
+  <div class="workz">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Project One</h3>
+    <p>Short description of this project and what it does.</p>
+  </div>
+
+  <div class="workz">
+    <img src="https://via.placeholder.com/300x200" alt="Project 2">
+    <h3>Project Two</h3>
+    <p>Quick overview of the second project.</p>
+  </div>
+
+  <div class="workz">
+    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+    <h3>Project Three</h3>
+    <p>A brief explanation of the third portfolio item.</p>
+  </div>
+
+  <div class="workz">
+    <img src="https://via.placeholder.com/300x200" alt="Project 4">
+    <h3>Project Four</h3>
+    <p>Some details about the fourth project in the portfolio.</p>
+  </div
+    <div class="workz">
+    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+    <h3>Project Three</h3>
+    <p>A brief explanation of the third portfolio item.</p>
+  </div>
+    <div class="workz">
+    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+    <h3>Project Three</h3>
+    <p>A brief explanation of the third portfolio item.</p>
+  </div>
+</div>
